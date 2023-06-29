@@ -3,12 +3,12 @@ body {
     text-align: center;
 }
 
-p {
+p#hi {
     margin: 80px 0 0 80px;
     font-size: 5em;
-    font-family: 'Quicksand', sans-serif;
+    /* font-family: ?????; */
     color: #FFF;
-    animation: floating-motion 1.8s ease infinite;
+    /* animation: ????? 1.8s ease infinite; */
 }
 
 .swatch {
@@ -77,6 +77,19 @@ div.stripe:nth-child(6) {
     animation: swatch-red-motion 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
 }
 
+@keyframes floating-motion {
+    0% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
 
 @keyframes swatch-purple-motion {
     0% {
@@ -171,19 +184,5 @@ div.stripe:nth-child(6) {
     90%,
     10% {
         transform: rotate(0deg);
-    }
-}
-
-@keyframes floating-motion {
-    0% {
-        transform: translateY(-10px);
-    }
-
-    50% {
-        transform: translateY(10px);
-    }
-
-    100% {
-        transform: translateY(-10px);
     }
 }
