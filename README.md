@@ -2,7 +2,8 @@
 This is the first Front End/CSS coding dojo we'll be having @ 42sp!
 
 # Challenges
-Every folder in this directory represents a challenge to be conquered in groups. 
+Every folder in this directory represents a challenge to be conquered in groups. Every challenge folder starts with two base files: `challenge_XX.html` and `styles.css`. These files contain the simplest html/css structure to get you ready to unleash your creativity!
+
 The goal is to use pure HTML and CSS __ONLY__ in order to reproduce the layouts presented in each directory's `expected_outcome` file.
 
 Challenge __00 - Hello World!__ is an introductory _kata_ meant to showcase how the dojo will be conducted.
