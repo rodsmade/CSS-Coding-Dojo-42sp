@@ -1,5 +1,39 @@
-div.square {
-    width: 100px;
-    height: 100px;
-    background: #dd6b4d;
+* {
+    margin: 0;
+}
+
+#u, #d {
+    height: 50vh;
+}
+
+#u {
+    background: #D25B70;
+}
+
+#d {
+    background: #6CB3A9;
+}
+
+#c {
+    height: 35vw;
+    width: 35vw;
+    background: #F6DF96;
+    border-radius: 50%;
+    position: absolute;
+    margin: 10vh 30vw;
+    z-index: 1;
+}
+
+.s {
+    height: 4.6vh;
+    width: 100%;
+    background: #6CB3A9;
+    z-index: 2;
+}
+
+#t {
+    background: #6CB3A9;
+    display: flex;
+    flex-direction: column;
+    gap: 4.6vh;
 }
