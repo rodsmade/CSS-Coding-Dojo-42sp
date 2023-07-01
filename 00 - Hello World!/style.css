@@ -6,9 +6,9 @@ body {
 p#hi {
     margin: 80px 0 0 80px;
     font-size: 5em;
-    /* font-family: ?????; */
+    font-family: Quicksand;
     color: #FFF;
-    /* animation: ????? 1.8s ease infinite; */
+    animation: floating-motion 1.8s ease infinite;
 }
 
 .swatch {
