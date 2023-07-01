@@ -12,7 +12,10 @@ Every folder in this directory represents a challenge to be conquered in groups.
 They all start off as a 'blank canvas' containing an HTML page with a single `<div>`, and its corresponding style defined in the `styles.css` file.
 The goal is to use HTML and CSS __ONLY__ in order to reproduce the layouts presented in each directory's `expected_outcome.png` file. Take a good look at it, and let your creativity and problem-solving skills flow!
 
-> :warning: These "`randori`" exercises are meant to be solved by small groups of 3-4 devs, as they rotate the roles of pilot/copilot/audience to solve each problem.
+> :warning: These "`randori`" exercises are meant to be solved in small groups of 3-4 devs, as they rotate the roles of pilot/copilot/audience to solve each problem.
+
+# Solutions
+I've uploaded my solution for each challenge in a separate branch `solutions`. Mind that the solutions were written for my own PC's screen resolution (oops!) so they might not render perfectly for different screen resolutions. However if you're having difficulty in solving a particular problem, this might be useful reference to help you get unstuck.
 
 # Schedule
 - 18h30 - 18h40: Welcome
@@ -24,7 +27,8 @@ The goal is to use HTML and CSS __ONLY__ in order to reproduce the layouts prese
 # Reference
 While this is not an extensive list, these links might help in solving the challenges here:
 - CSS Selectors - https://www.w3schools.com/cssref/css_selectors.php
-- Intro to FlexBox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- Intro to FlexBox - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- Flexbox Froggy (game to learn CSS) - https://flexboxfroggy.com/
 
 # Credits
 This whole dojo was inspired by the amazing [CSS Battle](https://cssbattle.dev/) website!
