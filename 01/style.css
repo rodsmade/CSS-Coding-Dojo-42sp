@@ -1,5 +1,11 @@
+body {
+    margin: 0;
+    background: #F5D6B4;
+}
+
 div.square {
-    width: 100px;
-    height: 100px;
-    background: #dd6b4d;
+    width: 60vh;
+    height: 60vh;
+    border-radius: 50%;
+    background: #D86F45;
 }

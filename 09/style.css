@@ -1,5 +1,37 @@
-div.square {
-    width: 100px;
-    height: 100px;
+body {
+    background: #1A4341;
+    padding: 25vh 20vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+body div:nth-child(even) {
+    background: #998235;
+}
+
+body div:nth-child(odd) {
+    background: #F3AC3C;
+}
+
+body div {
+    border-radius: 50%;
+}
+
+body div:nth-child(2),
+body div:nth-child(3) {
+    border-radius: 50% 50% 0 0;
+}
+
+body div:nth-child(5),
+body div:nth-child(8) {
+    border-radius: 0 0 50% 50%;
+}
+
+div {
+    width: 150px;
+    height: 150px;
     background: #dd6b4d;
 }

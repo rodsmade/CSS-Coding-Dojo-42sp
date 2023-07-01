@@ -1,5 +1,19 @@
-div.square {
-    width: 100px;
-    height: 100px;
-    background: #dd6b4d;
-}
+  body {
+    margin:0;
+    padding: 120px;
+    background: #62374e;
+  }
+  div {
+    width: 150px;
+    height: 150px;
+  }
+  .c {
+ 	width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 200px 500px;
+  }
+  .i {
+    background: #fdc57b;
+  }

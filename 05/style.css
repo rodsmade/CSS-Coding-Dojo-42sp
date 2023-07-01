@@ -1,5 +1,32 @@
-div.square {
-    width: 100px;
-    height: 100px;
-    background: #dd6b4d;
+div {
+    position: absolute;
+}
+
+body {
+    background: #6592CF;
+    margin: 7.5vh 30vw;
+}
+
+div#a {
+    width: 150px;
+    height: 150px;
+    background: #243D83;
+    transform: rotate(30deg);
+    top: 40vh;
+    left: 45vw;
+}
+
+div#b {
+    width: 50vh;
+    height: 50vh;
+    background: #6592CF;
+    transform: rotate(15deg);
+    top: 25vh;
+    left: 38vw;
+}
+
+div#c {
+    width: 85vh;
+    height: 85vh;
+    background: #243D83;
 }

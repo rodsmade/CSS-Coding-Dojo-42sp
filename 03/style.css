@@ -1,5 +1,26 @@
-div.square {
-    width: 100px;
-    height: 100px;
-    background: #dd6b4d;
-}
+  * {
+    margin: 0;
+  }
+
+  body {
+    background: #62306D;
+  }
+
+  div {
+    width: 100%;
+  }
+
+  #a {
+    background: #F7EC7D;
+    height: 16.5vh;
+  }
+
+  #b {
+    background: #E38F66;
+    height: 16.5vh;
+  }
+
+  #c {
+    background: #AA445F;
+    height: 33vh;
+  }

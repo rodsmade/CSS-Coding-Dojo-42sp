@@ -1,5 +1,30 @@
-div.square {
+body {
+    background: #F3AC3C;
+}
+
+div {
+    position: absolute;
+    left: 40vw;
+}
+
+div#a {
+    width: 400px;
+    height: 400px;
+    background: #1A4341;
+    top: 25vh;
+}
+
+div#b {
+    width: 200px;
+    height: 200px;
+    background: #998235;
+    top: 390px;
+}
+
+div#c {
     width: 100px;
     height: 100px;
-    background: #dd6b4d;
+    background: #F3AC3C;
+    top: 490px;
+    left: 714px;
 }

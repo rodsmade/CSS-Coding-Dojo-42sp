@@ -1,5 +1,42 @@
-div.square {
-    width: 100px;
-    height: 100px;
-    background: #dd6b4d;
+body {
+    margin: 0;
+    background: #F3AC3C;
+}
+
+div {
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+}
+
+div#s {
+    background-color: #1A4341;
+    top: 15vh;
+    left: 35vw;
+}
+
+div.o {
+    z-index: 1;
+    background: #F3AC3C;
+    border-radius: 50%;
+}
+
+body div.o:first-child {
+    top: -15.8vh;
+    left: 20vw;
+}
+
+body div.o:nth-child(2) {
+    top: 45vh;
+    left: 50vw;
+}
+
+body div.o:nth-child(3) {
+    top: -15.8vh;
+    left: 50vw;
+}
+
+body div.o:nth-child(4) {
+    top: 45vh;
+    left: 20vw;
 }

@@ -1,5 +1,32 @@
-div.square {
-    width: 100px;
-    height: 100px;
-    background: #dd6b4d;
+body {
+    background: #62306D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+div#c {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+}
+
+div.i {
+    width: 200px;
+    height: 200px;
+    background: #F7EC7D;
+}
+
+div#u {
+    align-self: flex-end;
+    transform: translateY(100px);
+    border-radius: 0px 0px 100% 100%;
+}
+
+div#d {
+    align-self: flex-start;
+    transform: translateY(-100px);
+    border-radius: 100% 100% 0px 0px;
 }

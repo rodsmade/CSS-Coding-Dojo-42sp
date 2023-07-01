@@ -1,5 +1,35 @@
-div.square {
-    width: 100px;
-    height: 100px;
-    background: #dd6b4d;
+body {
+    background: #5C434C;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    margin: 0;
+    padding: 0 200px;
+}
+
+div.o {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.i {
+    width: 80%;
+    height: 80%;
+    border-radius: 100% 0 0 0;
+}
+
+div.o div.i {
+    background: #F09462;
+}
+
+div.o:nth-child(2) div.i,
+div.o:nth-child(4) div.i,
+div.o:nth-child(5) div.i,
+div.o:nth-child(7) div.i,
+div.o:nth-child(10) div.i,
+div.o:nth-child(12) div.i {
+    background: #F5D6B4;
 }
