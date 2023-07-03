@@ -5,6 +5,10 @@ This is the first Front End/CSS coding dojo we'll be having @ 42sp!
 Challenge __00 - Hello World!__ is an introductory _kata_ that should be used to showcase how to set up the environment for all other challenges to come.
 It already contains a fully built HTML page and according CSS styles, with a couple "mistakes" intentionally left behind. Ideally, a more experienced dev will guide the whole group through "fixing" those mistakes so that everyone learns about the relation between html and css files, selectors and styles, and how powerful HTML/CSS alone can be in creating stunning visuals.
 
+You'll need:
+- [ ] A browser to render your html files - Chrome, Firefox, Safari, you name it.
+- [ ] (If using VSCode) An extension to see the changes in the CSS reflected in the html file - for instance, `Live Server`. 
+
 > :warning: The goal here is __not__ to recreate anything from scratch! If it seems too hard of a challenge or if it takes more than 15 minutes to be solved, by all means move on to the next challenges as they are designed to start off pretty easy and scale in difficulty gradually.
 
 # Challenges
