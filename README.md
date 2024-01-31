@@ -28,11 +28,13 @@ I've uploaded my solution for each challenge in a separate branch `solutions`. M
 - 19h15 - 20h15: Randori time!
 - 20h15 - 20h30: final thoughts and wrap up
 
-# Reference
+# Learn more
 While this is not an extensive list, these links might help in solving the challenges here:
-- CSS Selectors - https://www.w3schools.com/cssref/css_selectors.php
-- Intro to FlexBox - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-- Flexbox Froggy (game to learn CSS) - https://flexboxfroggy.com/
+- Intro to FlexBox - [https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- CSS Selectors - [https://www.w3schools.com/cssref/css_selectors.php](https://www.w3schools.com/cssref/css_selectors.php)
+### *Learn by playing!*
+- Flexbox Froggy (game to learn CSS) - [https://flexboxfroggy.com/](https://flexboxfroggy.com/)
+- CSS Dinner (game to practice CSS Selectors) - [https://flukeout.github.io/](https://flukeout.github.io/)
 
 # Credits
 This whole dojo was inspired by the amazing [CSS Battle](https://cssbattle.dev/) website!
